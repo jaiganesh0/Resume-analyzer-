@@ -1,0 +1,6 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Resume Analyzer</title><link rel="stylesheet" href="style.css"></head><body><main>
+<h1>Resume analyzer</h1><p class="sub">Paste your resume and a job description to see your match score and what to improve.</p>
+<form id="f" class="card"><label>Resume text<textarea id="resume" rows="9" placeholder="Paste your resume here"></textarea></label>
+<label>Job description<textarea id="jd" rows="5" placeholder="Paste the job description here"></textarea></label><button id="go" type="submit">Analyze resume</button><p id="err" role="alert"></p></form>
+<section id="res" class="card" hidden aria-live="polite"></section>
+<p class="note">This is a rule-based keyword and structure checker, not an AI model. Use it as a quick guide, not a final verdict.</p></main><script src="script.js"></script></body></html>
